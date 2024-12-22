@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class="tablesaw-enhanced"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link href="Report_files/site.css" rel="stylesheet">
+    <link href="Report_files/quickconfirm.css" rel="stylesheet">
+    <link href="Report_files/checkboxes.css" rel="stylesheet">
+    <link href="Report_files/jquery-ui.min.css" rel="stylesheet">
+    <link href="Report_files/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="Report_files/styles.css" rel="stylesheet">
+    <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" charset="utf-8" src="Report_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-8mJgBUBw4uTWF9Ooxgb4sUuO9jKtaVm1I+8vb0qpxxX3cafec7ovH+goM3yD4UyO"></script><script async="" src="Report_files/google-analytics_analytics.js"></script><script>
+     (function (w, d, s, l, i)
+     {
+         w[l] = w[l] || []; w[l].push({
+             'gtm.start':
+                 new Date().getTime(), event: 'gtm.js'
+         }); var f = d.getElementsByTagName(s)[0],
+             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+     })(window, document, 'script', 'dataLayer', 'GTM-TGW8KLR');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="Report_files/jquery-3.7.1.min.js"></script>
+        <script src="Report_files/bootstrap.js"></script>
+    <script src="Report_files/jquery-ui.min.js"></script>
+    <script src="Report_files/jquery.mask.min.js"></script>
+
+    <script src="Report_files/tablesaw.stackonly.js"></script>
+    <script src="Report_files/TimeoutWarning.js"></script>
+
+    <style>
+        .cc-window {
+            border: 1px solid;
+        }
+    </style>
+<style></style></head>
+<body><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-1066687019 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">The License Verification Portal requires the use of cookies to function. By using the site you are consenting to this.  <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.cookiesandyou.com/" rel="noopener noreferrer nofollow" target="_blank"></a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">OK</a></div><!--googleon: all--></div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGW8KLR" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="wrapper">
+        <!-- site utility -->
+<div class="site-utility">
+    <div class="container">
+        <a href="https://www.bon.texas.gov/" target="_blank">
+            <img alt="Logo: Primary Source License Verification" src="Report_files/240x40.png">
+        </a>
+    </div>
+</div>
+<input type="hidden" value="http://txbn.boardsofnursing.org/licenselookup/" id="BaseUrl">
+<!-- /site utility -->
+
+<!-- session timeout warning -->
+<div id="timeoutWarning" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Session timeout notice</h4>
+            </div>
+            <div class="modal-body">
+                <p id="timeoutMessage">Your session will timeout in 
+27:09 minutes. Any unsaved information may be lost. Please press the OK 
+button to continue using Lookup.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true" onclick="countdown.reset();">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /session timeout warning -->
+
+
+        
+
+
+
+<div class="main">
+    <div class="container">
+        <!-- title -->
+        <div class="page-header">
+            <h1>View Report</h1>
+        </div>
+        <!-- /title -->
+        <!-- links -->
+        <div class="content-block">
+            <div class="content-block-inset">
+                <p>
+                    <a href="https://txbn.boardsofnursing.org/licenselookup/Home/Index?o=a3sKM1JioWd3avR7gp56JlFByka2AH5C7QzdAW9VmtM=" class="back-to">Back to Search Results</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://txbn.boardsofnursing.org/licenselookup/Home/Index" class="btn btn-link">
+                        <br class="visible-xs">
+                        <span class="icon icon-plus">&nbsp;</span>New search
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!-- /links -->
+        <!-- report control -->
+        <!-- header -->
+        <div class="content-block">
+            <div class="content-block-inset">
+                <!-- report header -->
+                <div class="nurse-report-header">
+                    <div class="nurse-report-for">
+                        <p>Primary Source Board of Nursing Report Summary for</p>
+                        <h2>
+                                <span>DENNIS WIDMAN [NCSBN ID: 3246682]</span>
+                                <span id="lblNCSBNIDInfo" class="icon icon-information-cursor icon-small" rel="popover" title="" data-popover-content="#infoNCSBNIDPopover" data-original-title="NCSBN ID Information">&nbsp;</span>
+                        </h2>
+                        <br class="hidden-xs">
+                        <p class="small">
+                            <strong>Report Date:</strong>
+                            <em>Sunday, December 22 2024 05:34:18 PM</em>
+                        </p>
+                    </div>
+                    <div class="nurse-report-tools hidden-print">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#infoDownloadReport" onclick="ClearDownload();"><span class="icon icon-save-download">&nbsp;</span>&nbsp;Download report</a>
+                        </div>
+                        <ul class="nurse-report-links">
+                            <li>
+                                <a id="hlPrintReport" href="https://txbn.boardsofnursing.org/licenselookup/Home/Print?o=CUHtJYIOnTJYcvS3JB5L9A==" target="_blank"><span class="icon icon-print"></span>Print</a>
+                            </li>
+                            <li><a href="#" data-toggle="modal" data-target="#infoEmailReport" onclick="OpenEmailPopup();"><span class="icon icon-letter-mail"></span>Email</a></li>
+                        </ul>
+                    </div>
+                    <!-- download pop-up -->
+                    <div id="infoDownloadReport" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title">Download report</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- download -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="content-block">
+                                                <div class="content-block-inset">
+                                                    <div class="form-group" id="grpDownload">
+                                                        <label for="download">Please select the type of report you would like to download</label>
+                                                        <div class="radio">
+                                                            <span onchange="ToggleDownload()"><input id="rbDownloadReport" type="radio" name="rbgDownloadReport" value="rbDownloadReport" checked="checked"><label for="rbDownloadReport">Download full report</label></span><br>
+                                                                <span onchange="ToggleDownload()"><input id="rbDownloadReportWithDocuments" type="radio" name="rbgDownloadReport" value="rbDownloadReportWithDocuments"><label for="rbDownloadReportWithDocuments">Download full report with documents</label></span><br>
+                                                                                                                                <span onchange="ToggleDownload()"><input id="rbDownloadReportByLicense" type="radio" name="rbgDownloadReport" value="rbDownloadReportByLicense"><label for="rbDownloadReportByLicense">Download by license</label></span><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="pnlDownloadLicense">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="content-block">
+                                                    <div class="content-block-inset">
+                                                        <div class="form-group" id="grpDownloadLicense">
+                                                            <label for="licenses">Please select the licenses to include in your downloaded report</label>
+                                                            <div class="checkbox">
+                                                                        <span id="cblLicenses"><input id="cblLicenses_0" type="checkbox" name="cblLicenses$0" value="197566"><label for="cblLicenses_0">RN 868264</label></span><br>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /download -->
+                                </div>
+
+                                <div class="modal-footer">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a id="lbtnDownloadReport" class="btn btn-primary" onclick="ValidateDownloadInput();"><span class="icon icon-save-download">&nbsp;</span>Download</a>
+                                            &nbsp;
+                                            <button type="button" class="btn btn-link" data-dismiss="modal" aria-hidden="true" onclick="ClearDownload();">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /download pop-up -->
+                    <!-- email pop-up -->
+                    <form id="frmEmail">
+                        <div id="infoEmailReport" class="modal fade">
+                            <input id="indId" name="indId" type="hidden" value="205495">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h4 class="modal-title">Email report</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- email -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group" id="grpEmail">
+                                                    <label for="email">Email address</label>&nbsp;<span class="small">(required)</span>
+                                                    <input class="form-control" id="Email" maxlength="50" name="Email" type="text">
+                                                    <span class="field-validation-valid" data-val-email="Email address must be in 'address@example.com' format" data-val-required="Please enter your email address" data-valmsg-replace="true" id="spnEmail" style="color:#eb4747;font-size: 11px;"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /email -->
+                                        <!-- confirm email -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group" id="grpEmailConfirm">
+                                                    <label for="email">Confirm email address</label>&nbsp;<span class="small">(required)</span>
+                                                    <input class="form-control" data-val="true" id="ConfirmEmail" maxlength="50" name="ConfirmEmailAddress" type="text">
+                                                    
+                                                    <span id="spnConfirmEmail" style="display:none;color:#eb4747;font-size: 11px;" data-val-email="Confirm email address must be in 'address@example.com' format" data-val-required="Please confirm your email address"></span>
+                                                    <span class="field-validation-error" style="display:none;" id="snEmailMatch">Email address and confirm email address must match exactly</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /confirm email -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="fieldwrapper" id="captchaContainer" style="">
+                                                    <div class="captcha">
+                                                        <label>Security verification: please check the box below. You may be asked to complete a second verification step.</label>
+                                                        <div id="ReCaptchContainer" data-type="image"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-o6gqxztq9ab3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="Report_files/anchor.htm"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                                                    </div>
+                                                    <div class="alert alert-danger field-validation-error" id="captchaErr" style="display: none"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <span class="help-block">By clicking Send you attest that you have received prior consent to transmit this report to the entered email address.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                
+                                                <a id="lbtnEmailReport" class="btn btn-primary" onclick="return ValidateInput();"><span class="icon icon-letter-mail">&nbsp;</span>Send</a>
+                                                &nbsp;
+                                                <button type="button" class="btn btn-link" data-dismiss="modal" aria-hidden="true" onclick="ClearEmail();">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <!-- /email pop-up -->
+                </div>
+                <!-- /report header -->
+                <!-- nurse practice act message -->
+                <div class="content-block">
+                    <div class="alert alert-default">
+                        <p>This report is not sufficient when applying to another board of nursing for licensure. Use the <a href="http://www.nursys.com/NLV/NLVSearch.aspx">Nurse License Verification</a> service to request the required verification of licensure.</p><p><a href="https://www.ncsbn.org/contact-bon.htm" target="_blank">Contact the board of nursing</a> for details about the Nurse Practice Act.</p>
+                    </div>
+                </div>
+                <!-- /nurse practice act message -->
+                <!-- individual messages -->
+            </div>
+        </div>
+
+        <!-- /individual messages -->
+        <!-- discipline message -->
+        <!-- /discipline message -->
+        <!-- /header -->
+        <!-- report -->
+        <div class="nurse-report">
+            <!-- licenses -->
+            <!-- pop over panels -->
+            <div class="hide" id="infoCompactStatusPopover">
+                <ul>
+                    <li><strong>Multistate licensure privilege:</strong>
+ Authority to practice as a licensed nurse in a remote state under the 
+current license issued by the individual's home state provided both 
+states are party to the Nurse Licensure Compact and the privilege is not
+ otherwise restricted.</li>
+                    <li><strong>Single state license:</strong>  A license issued by a state board of nursing that authorizes practice only in the state of issuance.</li>
+                    <li><a href="https://www.ncsbn.org/nurse-licensure-compact.htm" target="_blank">More information about the Nurse Licensure Compact (NLC)</a></li>
+                </ul>
+            </div>
+            <div class="hide" id="infoPTPPopover">
+                <ul>
+                    <li><strong>Privilege to Practice (PTP): </strong>Multistate
+ licensure privilege is the authority under the Nurse Licensure Compact 
+(NLC) to practice nursing in any compact party state that is not the 
+state of licensure. All party states have the authority in accordance 
+with existing state due process law to take actions against the nurse's 
+privilege such as: revocation, suspension, probation or any other action
+ which affects a nurse's authorization to practice.</li>
+                    <li><a href="https://www.ncsbn.org/nurse-licensure-compact.htm" target="_blank">More information about the Nurse Licensure Compact (NLC)</a></li>
+                </ul>
+            </div>
+            <div class="hide" id="infoTypePopover">
+                <ul>
+                    <li><strong>RN:</strong> Registered Nurse</li>
+                    <li><strong>PN:</strong> Practical Nurse (aka Licensed Practical Nurse (LPN), Vocational Nurse (VN), Licensed Vocational Nurse (LVN))</li>
+                    <li><strong>CNP:</strong> Certified Nurse Practitioner</li>
+                    <li><strong>CNS:</strong> Clinical Nurse Specialist</li>
+                    <li><strong>CNM:</strong> Certified Nurse Midwife</li>
+                    <li><strong>CRNA:</strong> Certified Registered Nurse Anesthetist</li>
+                </ul>
+            </div>
+            <!-- /pop over panels -->
+                            <div><b>Board of Nursing  - Temporary and Permanent (Post Exam) Licenses</b><br><br></div>
+                <div style="max-width:1100px;">
+                    <div class="tablesaw-bar mode-stack"></div><table class="table table-default table-report table-hover tablesaw tablesaw-stack" data-tablesaw-mode="stack" id="table-3083">
+                        <!-- table header -->
+                        <thead>
+                            <tr>
+                                <th scope="col">Name on License</th>
+                                <th scope="col"><span class="icon icon-information-cursor hidden-xs hidden-print" rel="popover" title="License Type information" data-popover-content="#infoTypePopover">&nbsp;</span>Board of Nursing - License Type</th>
+                                <th scope="col">License Number</th>
+                                <th scope="col">License Status</th>
+                                    <th scope="col">Original Issue Date</th>
+                                                                    <th scope="col">Current Issue Date</th>
+                                                                    <th scope="col">Current Expiration Date</th>
+                                                                    <th scope="col"><span class="icon icon-information-cursor hidden-xs hidden-print" rel="popover" title="Compact Status information" data-popover-content="#infoCompactStatusPopover">&nbsp;</span>Compact Status</th>
+                                                            </tr>
+                        </thead>
+                        <!-- /table header -->
+                        <tbody>
+
+                                <tr id="trLicense" class="has-info">
+                                    <td><b class="tablesaw-cell-label">Name on License</b><span class="tablesaw-cell-content"><span class="bar"></span>WIDMAN, DENNIS</span></td>
+                                    <td><b class="tablesaw-cell-label"><span class="icon icon-information-cursor hidden-xs hidden-print" rel="popover" title="License Type information" data-popover-content="#infoTypePopover">&nbsp;</span>Board of Nursing - License Type</b><span class="tablesaw-cell-content">RN</span></td>
+
+                                        <td><b class="tablesaw-cell-label">License Number</b><span class="tablesaw-cell-content">
+                                            868264
+                                        </span></td>
+                                        <td><b class="tablesaw-cell-label">License Status</b><span class="tablesaw-cell-content">Current</span></td>
+                                                                                <td><b class="tablesaw-cell-label">Original Issue Date</b><span class="tablesaw-cell-content">
+7/28/2021</span></td>
+                                                                                <td><b class="tablesaw-cell-label">Current Issue Date</b><span class="tablesaw-cell-content">
+08/30/2023                                            </span></td>
+                                                                                <td><b class="tablesaw-cell-label">Current Expiration Date</b><span class="tablesaw-cell-content">
+
+                                                        <span class="active-yes"></span>08/31/2025                                            </span></td>
+
+                                            <td><b class="tablesaw-cell-label"><span class="icon icon-information-cursor hidden-xs hidden-print" rel="popover" title="Compact Status information" data-popover-content="#infoCompactStatusPopover">&nbsp;</span>Compact Status</b><span class="tablesaw-cell-content">Single State</span></td>
+                                                                    </tr>
+                                <!-- /discipline details message -->
+                                <!-- messages -->
+                                <!-- /messages -->
+                                <!-- aprn details -->
+                                <!-- /aprn details -->
+                                <!-- spacer -->
+                                <!-- /spacer -->
+                            <!-- /licenses -->
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+            <!--Pre-nclex-->
+
+
+            <!--/Pre-nclex-->
+            <!--Individual-->
+            <!--/Individual-->
+        </div>
+        <!-- /report -->
+        <!-- promos -->
+        <!-- /promos -->
+        <!-- definitions -->
+        <!-- /definitions -->
+        <!-- disclaimer -->
+        <div class="content-block">
+            <div class="content-block-inset">
+                <div class="alert alert-default">
+                        <span class="icon icon-information"></span>For a
+ more accurate search, select "Search by License Number" or "Search by 
+NCSBN ID" above. Partial name searches are accepted.                </div>
+            </div>
+        </div>
+        <!-- /disclaimer -->
+        <!-- scripts -->
+        <!-- /scripts -->
+        <!-- /report control -->
+        <!-- /container -->
+    </div>
+</div>
+
+
+<!-- page js start -->
+<script src="Report_files/report.js"></script>
+
+<script language="javascript" type="text/javascript">
+    InitializePageJs(
+        '205495',
+        'False',
+        '/licenselookup/Home/Download?o=CUHtJYIOnTJYcvS3JB5L9A==',
+        '/licenselookup/Home/Download?o=9L1nUU0CE0lo2hjIVipWsSiyEssmJLzIrfCzLEEohkE=',
+        '6LdG0VIUAAAAAE5yjzAkNT3MS2hwNty11ELnooyJ');
+</script>
+<!-- page js end -->
+
+
+        <!-- common pop-ups -->
+        <div class="hide" id="infoNCSBNIDPopover">
+            NCSBN ID is the public, globally unique identifier for all nurses from participating boards of nursing.
+        </div>
+        <!-- /common pop-ups -->
+        
+        
+ <div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <a href="https://www.nursys.com/LQC/LQCTerms.aspx" target="_blank"><img src="Report_files/logo-nursys.png" alt="Nursys"></a>
+        </div>
+        <div class="col-sm-7 col-md-10">
+            <h3>Nursys National Licensure and Disciplinary Database</h3>
+            <ul>
+                <li>Licensure verification, discipline and practice privileges for RNs and LPN/VNs licensed in participating boards of nursing.</li>
+                <li>Online verification for endorsement to practice in another state.</li>
+                <li>Nurse license lookup reports for employers and the general public.</li>
+            </ul>
+        </div>
+    </div>
+    <p></p>
+    <div class="row">
+        <div class="col-sm-3 col-md-offset-2"><a href="https://www.nursys.com/LQC/LQCTerms.aspx" target="_blank" class="btn btn-primary btn-sm" role="button">Visit Now</a></div>
+    </div>
+    <p></p>
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-md-7">
+                <p>
+                    <a href="https://www.bon.texas.gov/" target="_blank">Texas Board of Nursing</a><br>
+                    1801 Congress Avenue, Suite 10-200  Austin, TX 78701<br>
+                        <span>Email:</span><a href="mailto: webmaster@bon.texas.gov?Subject=Nurse%20Portal%20Support%20Request" target="_top"> webmaster@bon.texas.gov</a><br>
+                                                <span>
+                                Telephone: (512) 305-7400
+                            </span>
+                                                <span>
+                                <span>Fax: (512) 305-7401</span>
+                            </span>
+                </p>
+                <p>
+                        <span>Hours of Operation: Monday through Friday 8am to 5pm CST</span>
+                </p>
+                <p class="copyright">©2024 National Council of State Boards of Nursing Inc. All rights reserved.</p>
+            </div>
+            <div class="col-sm-4 col-md-5">
+                    <ul class="site-footer-links">
+                        <li><a href="https://www.bon.texas.gov/index.asp" target="_blank">Privacy Notice</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <!-- footer -->
+
+    
+    <script src="Report_files/api.js" async="" defer="defer"></script>
+
+    <!-- /footer -->
+    <script>
+        countdown.start();
+    </script>
+
+    <!-- page js start -->
+    <script src="Report_files/_layout.js"></script>
+    <!-- page js end -->
+
+    <link rel="stylesheet" type="text/css" href="Report_files/cookieconsent.min.css">
+    <script src="Report_files/cookieconsent.min.js"></script>
+
+
+
+
+
+<deepl-input-controller></deepl-input-controller><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;" class="g-recaptcha-bubble-arrow"></div><div style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;" class="g-recaptcha-bubble-arrow"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" style="width: 100%; height: 100%;" name="c-o6gqxztq9ab3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="Report_files/bframe.htm"></iframe></div></div></body></html>
